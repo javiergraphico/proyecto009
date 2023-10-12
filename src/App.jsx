@@ -1,7 +1,8 @@
-import { useState } from 'react'
+
 import './App.scss'
 import Navbar from './components/navbar/Navbar'
-import Test from './Test'
+import Hero from './components/hero/Hero'
+
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <section id='Home'>
         <Navbar />
+        <Hero />
       </section>
       <section id='Services'>Parallax</section>
       <section>Services</section>
